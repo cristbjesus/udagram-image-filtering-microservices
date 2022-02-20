@@ -15,7 +15,7 @@ before_script:
 
 script:
   - docker --version # print the version for logging
-  - docker-compose
+  - docker-compose up
   - docker tag udagram-api-feed cristborges05/udagram-api-feed:v1
   - docker tag udagram-api-user cristborges05/udagram-api-user:v1
   - docker tag udagram-frontend cristborges05/udagram-frontend:v1
